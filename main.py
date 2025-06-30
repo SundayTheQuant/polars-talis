@@ -43,3 +43,4 @@ if __name__ == "__main__":
     print(analyzer.get_summary())
     print(f"\nDatos procesados: {len(result)} filas")
     print(result)
+    print(result.to_numpy().T)
