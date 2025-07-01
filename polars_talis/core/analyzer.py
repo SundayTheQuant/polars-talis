@@ -2,7 +2,7 @@ from typing import List, Dict, Any, Optional
 import polars as pl
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
-from core.base import BaseIndicator
+from .base import BaseIndicator
 
 class TechnicalAnalyzer:
     """Analizador principal que ejecuta múltiples indicadores"""

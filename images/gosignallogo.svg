@@ -1,0 +1,15 @@
+<svg class="logo-circles-only" viewBox="0 0 70 70" xmlns="http://www.w3.org/2000/svg"
+     preserveAspectRatio="xMidYMid meet">
+    <defs>
+        <linearGradient id="gradGreen_circles" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="gradRed_circles" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:#dc2626;stop-opacity:1"/>
+        </linearGradient>
+    </defs>
+    <circle cx="45" cy="35" r="25" fill="url(#gradRed_circles)" opacity="0.85"/>
+    <circle cx="25" cy="35" r="25" fill="url(#gradGreen_circles)" opacity="0.85"/>
+</svg>

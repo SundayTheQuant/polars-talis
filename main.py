@@ -1,7 +1,4 @@
-from core.analyzer import TechnicalAnalyzer
-from indicators.trend import SMA, EMA
-from indicators.momentum import MACD, RSI
-from indicators.volatility import BollingerBands
+from polars_talis import TechnicalAnalyzer, SMA, EMA, MACD, RSI, BollingerBands
 
 if __name__ == "__main__":
     import polars as pl

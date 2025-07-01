@@ -1,6 +1,6 @@
 import polars as pl
 from typing import Optional, List
-from core.base import BaseIndicator, IndicatorConfig, IndicatorType
+from ..core.base import BaseIndicator, IndicatorConfig, IndicatorType
 
 
 class MACD(BaseIndicator):

@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+include pyproject.toml
+recursive-include polars_talis *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
