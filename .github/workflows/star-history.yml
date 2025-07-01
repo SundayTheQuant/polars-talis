@@ -1,0 +1,18 @@
+name: Star History
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs at 00:00 UTC every day
+    - cron: "0 0 * * *"
+
+jobs:
+  star-history:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Star history
+        uses: bytebase/star-history@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          repo: Physicworld/polars-talis
+          chart-type: Date

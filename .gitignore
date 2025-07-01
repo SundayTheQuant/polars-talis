@@ -145,3 +145,7 @@ Thumbs.db
 
 # Deployment instructions (private)
 DEPLOYMENT_INSTRUCTIONS.md
+
+# PyPI credentials (NEVER commit these!)
+.pypirc
+*.pypirc
