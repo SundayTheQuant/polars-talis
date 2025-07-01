@@ -8,8 +8,6 @@
 
 **🚀 Powered by [GoSignal](https://gosignal.sundaythequant.com/) - Advanced Trading Intelligence**
 
-[![GitHub stars](https://img.shields.io/github/stars/Physicworld/polars-talis?style=social)](https://github.com/Physicworld/polars-talis/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Physicworld/polars-talis?style=social)](https://github.com/Physicworld/polars-talis/network/members)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Polars](https://img.shields.io/badge/polars-compatible-orange.svg)](https://pola.rs/)
